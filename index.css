@@ -1,6 +1,35 @@
-#head {
-    text-align: center;
+body {
+    background-color: #B4E1FF;
 }
-#tagline {
-    text-align: center;
+.header h2 { 
+    color: #EF5D7F;
+}
+
+#custom-search-input{
+    padding: 3px;
+    border: solid 1px #A0A0A0;
+    border-radius: 6px;
+    background-color:rgba(255, 255, 255, 0.67);
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
 }
