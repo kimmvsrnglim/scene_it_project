@@ -8,6 +8,7 @@
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
     crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="index.js"></script>
 </head>
 <body>
 <!-- THIS IS WHERE THE HEADER BEGINS -->
@@ -17,7 +18,7 @@
             <div class="row">
                 <div class="col-12 header text-center">
                     <h2 class="display-2" id="head">
-                        SCENE IT
+                        Scene It
                     </h2>
                     <p class="tagline">
                         Search for movies you want to watch.<br>
@@ -26,25 +27,62 @@
                 </div>
             </div>
         </header>
-<br>
 <!-- THIS IS WHERE THE SEARCH BAR BEGINS -->
 
         <div class="row">
             <div class="col-12 search">
-                <div id="custom-search-input">
-                    <div class="input-group input-group-lg">
-                        <input class="form-control input-md" placeholder="Find movies..." />
-                        <span class="input-group-btn">
-                            <button class="btn btn-info btn-lg" type="button">Search</button>
-                        </span>
+                <form>
+                    <div id="custom-search-input">
+                        <div class="input-group input-group-lg">
+                            <input class="form-control input-md" placeholder="Find movies..." />
+                            <span class="input-group-btn">
+                                <button class="btn btn-info btn-lg" type="sumbit">Search</button>
+                            </span>
+                        </div>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
-
+<!-- THIS IS WHERE THE RESULTS BEGIN -->
         <div class="row">
             <div class="col-12 results">
-
+                <div class="card-columns">
+                    <div class="card">
+                        <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title<span class="badge badge-secondary float-right">2014</span></h4>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title<span class="badge badge-secondary float-right">2014</span></h4>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title<span class="badge badge-secondary float-right">2014</span></h4>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title<span class="badge badge-secondary float-right">2014</span></h4>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title<span class="badge badge-secondary float-right">2014</span></h4>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+            
             </div>
         </div>
     </div>

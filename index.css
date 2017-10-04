@@ -4,6 +4,14 @@ body {
 .header h2 { 
     color: #EF5D7F;
 }
+.results {
+    margin-top: 20px;
+}
+.search {
+    margin-top: 20px;
+}
+
+
 
 #custom-search-input{
     padding: 3px;
